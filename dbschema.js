@@ -13,14 +13,21 @@ let db = {
       ],
     screams: [
         {
-        screamId: 'viZvOuoIhLflw9rDakGH',
         body: 'cool Scream',
         userHandle: 'user',
         createAt: '2019-03-21T11:45:02.0192',
         likeCount: 5,
         commentCount: 2
         }
-    ]
+    ],
+    comments: [
+      {
+      screamId: 'viZvOuoIhLflw9rDakGH',
+      userHandle: 'user',
+      createAt: '2019-03-21T11:45:02.0192',
+      body: "cool comment"
+      }
+  ]
 };
 const userDetails = {
   credentials: [
@@ -44,6 +51,5 @@ const userDetails = {
       userHandle: 'user',
       screamID: 'dh23ggj5h32g543j5gf43'
       }
-      
   ]
 };
