@@ -1,5 +1,4 @@
 module.exports = {
-    apiKey: 
     authDomain: "socialape-1205.firebaseapp.com",
     databaseURL: "https://socialape-1205.firebaseio.com",
     projectId: "socialape-1205",
